@@ -47,3 +47,39 @@ border:  2px solid#333;
 .context p{
     margin: 3px;
 }
+
+
+/*Team Buccalati*/
+.flex-container{
+    width: 80%;
+    background-color: #F5D674;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 5px 5px 10px black;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 5px;
+
+  }
+  .card img{
+    width: 300px;
+  }
+  .card .pic{
+      height: 80%;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .container {
+    padding: 2px 16px;
+  }
